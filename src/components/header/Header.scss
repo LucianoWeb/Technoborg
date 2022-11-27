@@ -1,0 +1,99 @@
+@use '/variables' as v;
+.header-container{
+    display: flex;
+    background: v.$gradient-bg;
+    padding: 0 5rem;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:768px) {
+        padding: 1rem;
+        flex-direction: column;
+
+    }
+    .header-img{
+        img{
+            height: 30rem;
+            filter: drop-shadow(0 0 5px white);
+            @media (max-width:768px) {
+                height: 20rem;
+                margin-top: 3rem;
+            }
+
+        }
+    }
+}
+.header {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    @media (max-width:768px) {
+        max-width: 22rem;
+        text-align: center;
+    }
+
+    h1 {
+        background: v.$gradient-text;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        @media (max-width:768px) {
+           font-size: 2rem;
+        }
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 2rem;
+        width: 50rem;
+        @media (max-width:768px) {
+           max-width: 22rem;
+        }
+        span{
+            background: v.$gradient-text;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 1.5rem;
+        }
+    }
+
+    .header-input {
+        display: flex;
+        @media (max-width:768px) {
+         justify-content: center;
+         }
+        input {
+           flex: 0.7;
+            padding: 0 1rem;
+            width: 100%;
+            outline: none;
+            border: none;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+
+        button {
+            background-color: #a711fd;
+            font-size: 1.2rem;
+            border: none;
+            color: white;
+            padding:.7rem 2rem;
+            font-weight: 900;
+            border-bottom-right-radius: 3px;
+            border-top-right-radius: 3px;
+            @media (max-width:768px) {
+                padding: .5rem;
+                font-size: 1rem;
+              
+            }
+            &:hover{
+                cursor: pointer;
+                background-color:#7811b3 ;
+                transition: .3s;
+            }
+        }
+    }
+}
