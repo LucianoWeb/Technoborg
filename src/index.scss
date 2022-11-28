@@ -8,6 +8,12 @@
     scroll-behavior: smooth;
     font-family: 'Manrope', sans-serif;
 }
+.gradient-text{
+    background: v.$gradient-text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 body{
     background: v.$color-bg
 }
