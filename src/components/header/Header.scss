@@ -5,7 +5,7 @@
     padding: 0 5rem;
     justify-content: center;
     align-items: center;
-    @media (max-width:768px) {
+    @media (max-width:1080px) {
         padding: 1rem;
         flex-direction: column;
 
@@ -14,7 +14,7 @@
         img{
             height: 30rem;
             filter: drop-shadow(0 0 5px white);
-            @media (max-width:768px) {
+            @media (max-width:1080px) {
                 height: 18rem;
                 margin-top: 3rem;
             }
@@ -27,6 +27,10 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    @media (max-width:1080px) {
+
+        text-align: center;
+    }
     @media (max-width:768px) {
         max-width: 22rem;
         text-align: center;
@@ -38,7 +42,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 3rem;
-        @media (max-width:768px) {
+        @media (max-width:1080px) {
            font-size: 2rem;
         }
     }
@@ -62,7 +66,7 @@
 
     .header-input {
         display: flex;
-        @media (max-width:768px) {
+        @media (max-width:1080px) {
          justify-content: center;
          }
         input {

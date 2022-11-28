@@ -6,7 +6,7 @@
     align-items: center;
     padding: 1rem 6rem;
     background: v.$gradient-bg;
-    @media (max-width:768px) {
+    @media (max-width:1080px) {
         padding: 1rem;
     }
     .navbar_links{
@@ -23,7 +23,7 @@
             margin-right: 3rem;
             border: 3px solid white;
             border-radius: 50%;
-            @media (max-width:768px) {
+            @media (max-width:1080px) {
                 margin-right: 0;
             }
         }
