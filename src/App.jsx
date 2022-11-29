@@ -2,6 +2,7 @@ import React from 'react'
 import Future from './components/future/Future'
 import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
+import Technologies from './components/technologies/Technologies'
 import WhatIs from './components/whatis/WhatIs'
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <WhatIs/>
       <Future/>
+      <Technologies/>
     </>
   )
 }

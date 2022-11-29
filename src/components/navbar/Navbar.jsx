@@ -17,7 +17,7 @@ const Navbar = () => {
         <a href="#home">Home</a>
         <a href="#whatis">What is TechnoBorg?</a>
         <a href="#future">Future</a>
-        <a href="#future">Our Future</a>
+        <a href="#tech">Technology</a>
         <a href="#contact">Contact</a>
       </div>
 

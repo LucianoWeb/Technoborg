@@ -29,9 +29,15 @@
         img{
             
             height: 25rem;
-            filter: drop-shadow(0 0 5px v.$primary);
+            animation: ani 3s linear infinite alternate;
             @media (max-width:1080px) {
                height: 15rem;
+             
+            }
+            @keyframes ani {
+                100%{
+                    filter: drop-shadow(0 0 10px v.$primary);
+                }
             }
             
         }
