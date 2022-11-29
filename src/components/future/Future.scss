@@ -1,0 +1,41 @@
+@use '/variables.scss' as v;
+
+.future-container{
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .future-title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5rem;
+        h4{
+            font-size: 2.5rem;
+            font-weight: 900;
+        }
+        img{
+            height: 30rem;
+            filter: drop-shadow(0 0 5px v.$primary);
+            
+        }
+    }
+    .future-list{
+        h5{
+            font-size: 1.7rem;
+            color: white;
+            line-height: 2.5rem;
+            letter-spacing: 1px;
+        }
+        ul{
+            background:v.$gradient-bg;
+            padding: 2rem;
+            margin: 2rem 5rem 2rem 0;
+            li{
+                color: white;
+                padding: .5rem 0;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

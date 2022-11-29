@@ -5,8 +5,10 @@
     margin: 10rem;
     background: v.$gradient-bg;
     display: flex;
+
     flex-direction: column;
     gap: 5rem;
+    border-radius: 15px;
     @media (max-width:1080px) {
         padding: 1rem;
         margin: 5rem 1rem;
@@ -55,6 +57,7 @@
         color: v.$color-bg;
         padding: .2rem 1rem;
         background: v.$gradient-text;
+        border-radius: 3px;
        }
        p{
         font-size: 1.1rem;

@@ -1,7 +1,7 @@
 @use '/variables' as v;
 .header-container{
     display: flex;
-    background: v.$gradient-bg;
+    background: linear-gradient(to bottom, #082450, #00020e);;
     padding: 0 5rem;
     justify-content: center;
     align-items: center;

@@ -21,7 +21,7 @@ const WhatIs = () => {
         <div>
           <GiStrong size={40} color="white" />
           <h4>Mobility Aid</h4>
-          <p>Help your loved ones with mobility problems (disabled or elderly). Techborg Vx assists people to help them stand up, support themselves while walking in any direction they want. He will be their assistant nurse.</p>
+          <p>Help your loved ones with mobility problems (disabled or elderly). Techborg Vx assists people to help them stand up, support themselves while walking in any direction they want.</p>
         </div>
         <div>
           <GiVacuumCleaner size={40} color="white" />

@@ -16,7 +16,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
         <a href="#home">Home</a>
         <a href="#whatis">What is TechnoBorg?</a>
-        <a href="#utilities">Utilities</a>
+        <a href="#future">Future</a>
         <a href="#future">Our Future</a>
         <a href="#contact">Contact</a>
       </div>
