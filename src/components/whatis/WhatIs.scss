@@ -6,22 +6,60 @@
     background: v.$gradient-bg;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 5rem;
+    @media (max-width:1080px) {
+        padding: 1rem;
+        margin: 5rem 1rem;
+        gap: 2rem;
+    }
     h2{
         font-size: 2.5rem;
-
+        @media (max-width:1080px) {
+            font-size: 2rem;
+        }
     }
     .what-texts1{
         display: flex;
         gap: 10rem;
+        @media (max-width:1080px) {
+          gap: 2rem;
+          flex-direction: column;
+        }
         p{
             font-weight: 500;
             font-size: 1.1rem;
+            line-height: 1.7rem;
       
         }
         h4{
             color: white;
             font-size: 2rem;
         }
+    }
+}
+.what-texts2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    @media (max-width:768px) {
+        grid-template-columns: repeat(1,1fr);
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+       h4{
+        font-size: 2rem;
+        color: v.$color-bg;
+        padding: .2rem 1rem;
+        background: v.$gradient-text;
+       }
+       p{
+        font-size: 1.1rem;
+        font-weight: 500;
+        line-height: 1.7rem;
+       }
     }
 }
