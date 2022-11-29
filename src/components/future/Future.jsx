@@ -6,7 +6,7 @@ const Future = () => {
     return (
         <div className="future-container" id="future">
             <div className='future-title'>
-                <h4 className='gradient-text'>Whats next for TechnoBorg</h4>
+                <h4 className='gradient-text'>What's next for TechnoBorg</h4>
                 <img src={future} alt="future" />
 
             </div>
