@@ -7,6 +7,7 @@
     background: linear-gradient(#00020e, #00020e72), url(../../assets/secure.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     margin: 10rem;
     padding: 5rem;
@@ -26,17 +27,17 @@
     }
     div{
         display: flex;
-        gap: 3rem;
-        align-items: center;
+        gap: 7rem;
+        
         margin-top: 3rem;
         @media (max-width:1080px) {
         flex-direction: column;
     
         }
        .icon-tech{
-        margin-top: -6.5rem;
+    display: none;
         @media (max-width:1080px) {
-          margin: 0;
+          display: block;
             height: 5rem;
 
         }
@@ -48,9 +49,12 @@
             text-align: center;
             line-height: 2rem;
             color: #1cd3cd;
+            border-right: 2px solid white;
+            padding: .5rem;
             @media (max-width:1080px) {
                 width: 20rem;
                 color: white;
+                border: none;
         
             }
         }
