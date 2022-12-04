@@ -1,19 +1,24 @@
 @use '/variables' as v;
-.header-container{
+
+.header-container {
     display: flex;
-    background: linear-gradient(to bottom, #082450, #00020e);;
+    background: linear-gradient(to bottom, #082450, #00020e);
+    ;
     padding: 0 5rem;
     justify-content: center;
     align-items: center;
+
     @media (max-width:1080px) {
         padding: 1rem;
         flex-direction: column;
 
     }
-    .header-img{
-        img{
+
+    .header-img {
+        img {
             height: 30rem;
             filter: drop-shadow(0 0 5px white);
+
             @media (max-width:1080px) {
                 height: 18rem;
                 margin-top: 3rem;
@@ -22,49 +27,61 @@
         }
     }
 }
+
 .header {
 
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
     @media (max-width:1080px) {
 
         text-align: center;
     }
+
     @media (max-width:768px) {
         max-width: 22rem;
         text-align: center;
     }
 
     h1 {
-    
-        font-size: 3rem;
+
+        font-size: 3.5rem;
+        font-weight: 900;
+        padding: 3rem 0;
+
         @media (max-width:1080px) {
-           font-size: 2rem;
+            font-size: 2rem;
+            padding: 0;
         }
     }
-    p{
+
+    p {
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 1px;
         line-height: 2rem;
         width: 50rem;
         color: #ededed;
+
         @media (max-width:768px) {
-           max-width: 22rem;
+            max-width: 22rem;
         }
-        span{
+
+        span {
             font-size: 1.5rem;
         }
     }
 
     .header-input {
         display: flex;
+
         @media (max-width:1080px) {
-         justify-content: center;
-         }
+            justify-content: center;
+        }
+
         input {
-           flex: 0.7;
+            flex: 0.7;
             padding: 0 1rem;
             width: 100%;
             border: 1px solid white;
@@ -81,18 +98,20 @@
             font-size: 1.2rem;
             border: none;
             color: white;
-            padding:.7rem 2rem;
+            padding: .7rem 2rem;
             font-weight: 900;
             border-bottom-right-radius: 3px;
             border-top-right-radius: 3px;
+
             @media (max-width:768px) {
                 padding: .5rem;
                 font-size: 1rem;
-              
+
             }
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
-                background-color:#7811b3 ;
+                background-color: #7811b3;
                 transition: .3s;
             }
         }

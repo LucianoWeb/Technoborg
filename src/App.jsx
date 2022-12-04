@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from './components/contact/Contact'
 import Future from './components/future/Future'
 import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
@@ -13,6 +14,7 @@ const App = () => {
       <WhatIs/>
       <Future/>
       <Technologies/>
+      <Contact/>
     </>
   )
 }
