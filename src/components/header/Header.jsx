@@ -1,8 +1,11 @@
 import React from 'react';
 import '../header/Header.scss';
-import cyborg from '../../assets/cyborg.png'
+import cyborg from '../../assets/cyborg.png';
+
+
 
 const Header = () => {
+
   return (
     <div className="header-container">
       <div className="header">
